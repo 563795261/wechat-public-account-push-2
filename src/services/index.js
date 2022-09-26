@@ -80,7 +80,7 @@ import dayjs from 'dayjs'
  * @returns 
  */
  export const getCIBA = async () => {
-    const url = 'https://api.shadiao.pro/chp'
+    const url = 'http://open.iciba.com/dsapi/'
     const res = await axios.get(url, {
         headers: {
             'Content-Type': 'application/json',
