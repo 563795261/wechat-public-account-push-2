@@ -76,6 +76,17 @@ import dayjs from 'dayjs'
 }
 
 /**
+ * 每日一句
+ * @returns 
+ */
+export const getwords = () => {
+    words = requests.get("https://api.shadiao.pro/chp")
+  if words.status_code != 200:
+    return get_words()
+  return words.json()['data']['text']
+}
+ 
+/**
  * 金山词霸每日一句
  * @returns 
  */
