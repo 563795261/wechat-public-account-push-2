@@ -12,17 +12,17 @@ export const config = {
     // 信息配置
     ewai: "   ",
     // 所在省份
-    province: "广西",
+    province: "陕西",
     // 所在城市
-    city: "桂林",
+    city: "咸阳",
     // 在一起的日子，格式同上
     loveDate: "2022-04-05",
     // 结婚纪念日
     marryDate: "2022-09-25",
     // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 r
-    birthdays: [
-      {"name": "曾曾", "year": "1998", "date": "06-02", "type": 'new'},
-      {"name": "哥哥", "year": "1996", "date": "01-07", "type": 'new'},
+    birthday: [
+      {"name": "詹太太", "year": "2023", "date": "01-18", "type": 'new'},
+      {"name": "詹太太", "year": "1996", "date": "12-27", "type": 'r'},
     ],
     }
 
