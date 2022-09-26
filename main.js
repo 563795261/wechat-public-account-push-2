@@ -26,9 +26,7 @@ const main = async () => {
         ws: windScale
     } = await getWeather(province, city)
     // 获取金山词霸每日一句
-    const { content: noteCh, note: noteEn } = await get("https://api.shadiao.pro/chp")
-         return get_words()
-  return words.json()['data']['text']
+    const { content: noteCh, note: noteEn } = await getCIBA()
     // 获取在一起的日期差
     const loveDay = dayjs().diff(dayjs(config.loveDate), 'day')
     // 获取结婚的日期差
