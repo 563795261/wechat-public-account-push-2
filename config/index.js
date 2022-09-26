@@ -15,15 +15,15 @@ export const config = {
     province: "广西",
     // 所在城市
     city: "桂林",
+    // 在一起的日子，格式同上
+    loveDate: "2022-04-05",
+    // 结婚纪念日
+    marryDate: "2022-09-25",
     // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 r
     birthdays: [
       {"name": "曾曾", "year": "1998", "date": "06-02", "type": 'new'},
       {"name": "哥哥", "year": "1996", "date": "01-07", "type": 'new'},
     ],
-    // 在一起的日子，格式同上
-    loveDate: "2016-11-05",
-    // 结婚纪念日
-    
     }
 
  //{{date.DATA}}  
