@@ -21,7 +21,8 @@ export const config = {
     marryDate: "2022-09-25",
     // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 r
     birthdays: [
-      {"name": "詹太太", "year": "2023", "date": "01-18", "type": 'new'},
+      {"name": "姐姐", "year": "2023", "date": "01-18", "type": 'new'},
+      {"name": "弟弟", "year": "2022", "date": "11-25", "type": 'new'},
     ],
     }
 
