@@ -7,7 +7,7 @@ export const config = {
     // 模板消息id
     templateId: "sscydnuoQwS4kdQmwwDqMr_K6drG-qtmegVGyiEOePY",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-    user: ["o2yzX5on8ZBUKH55CZzZFtj9dpsk"],
+    user: ["o2yzX5on8ZBUKH55CZzZFtj9dpsk","o2yzX5l26BWel7UnVB50xPJlM498"],
      
     // 信息配置
     ewai: "   ",
@@ -21,7 +21,6 @@ export const config = {
     marryDate: "2022-09-25",
     // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 r
     birthdays: [
-      {"name": "彭先生", "year": "2022", "date": "11-25", "type": 'new'},
       {"name": "詹太太", "year": "2023", "date": "01-18", "type": 'new'},
     ],
     }
